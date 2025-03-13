@@ -1,0 +1,19 @@
+{
+  "lang": "EN",
+  "nameHeader": "Hello, I'm",
+  "name": "Santiago Armesto",
+  "about": "I am a Full Stack developer with a strong interest in working on real-world projects. My goal is to be part of a team that, regardless of its field, stands out for making a positive social impact through its daily work.",
+  "errorMessage": "Oops! Please enable location for a proper welcome.",
+  "headerWelcomeMessage": "Hello, my friend from",
+  "degree": "Higher Technician in Software Development",
+  "institute": "Instituto de Educación Superior N° 7",
+  "location": "Venado Tuerto, Argentina",
+  "weatherErrorMessage": "Enable location for weather details.",
+  "failFetch": "Error in loading weather data, try again later",
+  "failFetch2": "We encountered an unexpected error while retrieving the information. We are working on it.",
+  "english": "ENGLISH",
+  "level": "C2",
+  "organization": "EF SET",
+  "age": 28,
+  "ageText": "YEARS OLD"
+}

@@ -1,0 +1,426 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+  Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background-color: #121111;
+}
+
+HTML {
+  font-size: 62.5%;
+}
+
+main {
+  width: 100%;
+}
+
+main * {
+  transition: 300ms ease-in-out;
+}
+
+button {
+  all: unset; 
+  cursor: pointer; 
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+@theme {
+  /* Dark mode */
+  --color-background-dark: #121111;
+  --color-black: #0c1015;
+  --color-purple: #483d54;
+  --color-rose: #ba777c;
+  --color-grey: #242524;
+  --color-blue: #00659c;
+  --color-gold: #e5cc2d;
+  --color-green: #087f5b;
+  --color-darkgrey: #1c1d1d;
+
+  /* white mode */
+  --color-background-light: #f7f2f2;
+}
+
+.hover:hover {
+  cursor: pointer;
+  transform: scale(95%);
+}
+
+.relative {
+  position: relative;
+}
+
+.grid-main {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(9, 1fr);
+  gap: .3rem;
+  width: 98vw;
+  padding-top: .5rem;
+  margin: 0 auto;
+}
+
+.gold {
+  color: #e5cc2d;
+  font-weight: 700;
+}
+
+.center {
+  text-align: center;
+}
+
+.card {
+  border-radius: 2.6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  aspect-ratio: 1/1;
+  border: 1px solid #1c1d1d;
+}
+
+.about-card {
+  grid-column: 1 / -1;
+  grid-row: 1 / 4;
+  aspect-ratio: auto;
+  flex-direction: column;
+  position: relative;
+}
+.about-card span {
+  font-size: 2.6rem;
+  display: block;
+}
+
+.about-card h2 {
+  color: #e5cc2d;
+  font-size: 2.4rem;
+}
+
+.about-card p {
+  max-width: 32rem;
+  font-size: 1.3rem;
+}
+
+.header-about {
+  gap: 1.2rem;
+  margin-bottom: 1.8rem;
+}
+
+.photo {
+  width: 8.2rem;
+  border-radius: 100px;
+  border: 1px solid #1c1d1d
+}
+.signature {
+  width: 24rem;
+  position: absolute;
+  top: 75%;
+  z-index: 999;
+}
+
+a {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.external-link {
+  position: absolute;
+  background-color: #fff;
+  width: 2rem;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 5px;
+  right: 5px;
+}
+ .tecnologies-card {
+  display: grid;
+  grid-column: span 3;
+  grid-row: span 3;
+  aspect-ratio: auto;
+  grid-template-columns: repeat(4, 1fr);
+} 
+
+.welcome-card {
+  grid-column: span 2;
+  aspect-ratio: auto;
+}
+.welcome-message {
+  font-size: 1.2rem
+}
+
+.city-message {
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+.weather-card {
+  grid-column: span 2;
+  aspect-ratio: auto;
+} 
+
+.weather-card img {
+  width: 6rem;
+}
+
+.city-text {
+  font-size: 1.8;
+  font-weight: 700;
+}
+
+.weather-text {
+  font-size: 1.6rem
+}
+
+.icons {
+  width: 4rem;
+}
+.astro {
+  width: 3rem;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.institute-card {
+  grid-column: 1 / 4;
+  aspect-ratio: auto;
+  gap: .4rem
+}
+
+.english-card a {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: #fff
+}
+
+.english-card strong {
+  color:#e5cc2d;
+  font-size: 3.6rem;
+  font-weight: bold;
+}
+
+.age-card p {
+  font-size: 4rem;
+}
+
+.age-card span{
+  font-size: 1.2rem;
+}
+
+.language-card p {
+  font-size: 4rem;
+}
+
+.lang-options-container {
+  display: flex;
+  gap: .4rem
+}
+
+.toggler-img {
+  width: 4.4rem;
+}
+
+@media (width > 37.5em) {
+  .grid-main {
+    padding: 2rem;
+    max-width: 90rem;
+    height: auto;
+    grid-template-rows: repeat(6, 1fr);
+    gap: 1.5rem;
+  }
+
+  .language-card p {
+    font-size: 8rem;
+    font-weight: 700;
+  }
+
+  .language-card span {
+    font-size: 1.8rem;
+    font-weight: 700;
+  }
+
+  .icons {
+    width: 6rem;
+  }
+
+  .astro {
+    width: 4rem;
+  }
+
+  .icons-media {
+    width: 10rem;
+  }
+
+  .external-link {
+    width: 2.5rem;
+    height: 2.5rem;
+    top: 1rem;
+    right: 1rem;
+  }
+
+  .toggler-img {
+    width: 9.6rem;
+  }
+
+  .about-card {
+    grid-column: 1 / 4;
+    grid-row: 1 / 3;
+    aspect-ratio: auto;
+  }
+
+  .about-card p {
+    font-size: 2.4rem;
+    max-width: 58rem;
+  }
+
+  .about-card h2 {
+    font-size: 4rem;
+  }
+
+  .about-card span {
+    font-size: 3rem;
+    margin-bottom: -1rem;
+  }
+  .header-about {
+    margin-bottom: 3.2rem;
+    gap: 12rem
+  }
+
+  .photo {
+    width: 12rem;
+  }
+
+  .linkedin-card {
+    grid-column: 1;
+    grid-row: 3;
+  }
+  .github-card {
+    grid-column: 2;
+    grid-row: 3;
+  }
+  .cv-card {
+    grid-column: 3;
+    grid-row: 3;
+  }
+  .mail-card {
+    grid-column: 4;
+    grid-row: 3;
+  }
+
+  .lights-card {
+    grid-column: 4;
+    grid-row: 1;
+  }
+
+  .language-card {
+    grid-column: 4;
+    grid-row: 2
+  }
+
+
+  .tecnologies-card {
+    display: grid;
+    grid-column: span 1;
+    grid-row: 4;
+    aspect-ratio: auto;
+  }
+
+  .welcome-card {
+    grid-column: 3 / 5;
+    grid-row: 4; 
+    aspect-ratio: auto;
+  }
+
+  .welcome-card span {
+    color:#e5cc2d
+  }
+
+  .weather-card {
+    grid-column: 3 / 5;
+    grid-row: 5; 
+    aspect-ratio: auto;
+  }
+  
+  .english-card {
+    grid-column: 1;
+    grid-row: 6;
+  }
+
+  .english-card span {
+    font-size: 2.3rem;
+  }
+
+  .english-card strong {
+    font-size: 6rem;
+  }
+
+  .english-card p {
+    font-size: 2rem;
+  }
+
+  
+
+
+
+  .signature {
+    width: 42rem;
+    top: 70%
+  }
+
+  .age-card {
+    grid-column: 4;
+    grid-row: 6;
+  }
+
+  .age-card p {
+    font-size: 7.2rem;
+  }
+
+  .age-card span {
+    font-size: 2rem;
+  }
+
+  .institute-card {
+    grid-column: 2 / 4;
+    aspect-ratio: auto;
+    gap: 1.4rem;
+  }
+
+  .institute-degree {
+    font-size: 1.6rem
+  }
+
+  .institute-institute {
+    font-size: 1.6rem
+  }
+
+  .institute-location {
+    font-size: 1.6rem
+  }
+  .tecnologies-card {
+    grid-column: 1 / 3;
+    grid-row: 4 / 6 ;
+    aspect-ratio: auto;
+  }
+
+}
+

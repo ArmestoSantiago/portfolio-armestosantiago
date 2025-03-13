@@ -1,0 +1,19 @@
+{
+  "lang": "ES",
+  "nameHeader": "Hola, soy",
+  "name": "Santiago Armesto",
+  "about": "Soy un profesional con habilidades en desarrollo Full Stack y un interés en participar en proyectos reales. Me proyecto en un futuro participando en un equipo que se destaque por generar un buen impacto social en el trabajo que realiza día a día.",
+  "errorMessage": "Ups! Por favor activa la ubicación para una bienvenida como corresponde.",
+  "headerWelcomeMessage": "Hola, mi amig@ de",
+  "degree": "Técnico Superior en Desarrollo de Software",
+  "institute": "Instituto de Educación Superior N° 7",
+  "location": "Venado Tuerto, Argentina",
+  "weatherErrorMessage": "Activa ubicación para detalles del tiempo.",
+  "failFetch": "Error al buscar información del tiempo, intenta de nuevo más tarde.",
+  "failFetch2": "Tuvimos un error inesperado al recuperar la información. Estamos trabajando en eso.",
+  "english": "INGLÉS",
+  "level": "C2",
+  "organization": "EF SET",
+  "age": 28,
+  "ageText": "AÑOS"
+}
