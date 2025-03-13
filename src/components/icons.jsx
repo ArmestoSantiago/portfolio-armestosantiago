@@ -188,13 +188,13 @@ export function DownloadArrow({ lightsOn }) {
 
 export function LocationIcon({ lightsOn }) {
   return (
-    <svg xmlns="http://www.w3.org/2000/svg" className="icons" width="24px" height="24px" viewBox="0 0 1024 1024"><path fill="#e5cc2d" d="M288 896h448q32 0 32 32t-32 32H288q-32 0-32-32t32-32z" /><path fill="#e5cc2d" d="M800 416a288 288 0 1 0-576 0c0 118.144 94.528 272.128 288 456.576C705.472 688.128 800 534.144 800 416zM512 960C277.312 746.688 160 565.312 160 416a352 352 0 0 1 704 0c0 149.312-117.312 330.688-352 544z" /><path fill="#e5cc2d" d="M512 512a96 96 0 1 0 0-192 96 96 0 0 0 0 192zm0 64a160 160 0 1 1 0-320 160 160 0 0 1 0 320z" /></svg>
+    <svg xmlns="http://www.w3.org/2000/svg" className="icons icon-location" width="32px" height="32px" viewBox="0 0 1024 1024"><path fill="#e5cc2d" d="M288 896h448q32 0 32 32t-32 32H288q-32 0-32-32t32-32z" /><path fill="#e5cc2d" d="M800 416a288 288 0 1 0-576 0c0 118.144 94.528 272.128 288 456.576C705.472 688.128 800 534.144 800 416zM512 960C277.312 746.688 160 565.312 160 416a352 352 0 0 1 704 0c0 149.312-117.312 330.688-352 544z" /><path fill="#e5cc2d" d="M512 512a96 96 0 1 0 0-192 96 96 0 0 0 0 192zm0 64a160 160 0 1 1 0-320 160 160 0 0 1 0 320z" /></svg>
   );
 }
 
 export function HammerIcon() {
   return (
-    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" className="icons" fill="#e5cc2d" width="24" height="24" viewBox="0 0 512 512" version="1.1" xmlSpace="preserve">
+    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" className="icons" fill="#e5cc2d" width="42" height="42" viewBox="0 0 512 512" version="1.1" xmlSpace="preserve">
       <g id="Hammer">
         <g id="XMLID_1229_">
           <polygon id="XMLID_1230_" points="104.175,346.679 153.639,396.144 203.997,341.071 160.03,297.104   " />

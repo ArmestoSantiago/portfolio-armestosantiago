@@ -141,14 +141,14 @@ export function App() {
         </div>
         <div className='card weather-card' style={cardsBackground}>
           {error &&
-            <div className='flex column'>
+            <div className='hammer-container flex column'>
               <HammerIcon />
-              <p style={{ textAlign: 'center' }}>{texts.failFetch2}</p>
+              <p className='hammer-text' style={{ textAlign: 'center' }}>{texts.failFetch2}</p>
             </div>
           }
           {!error && !location && <div className="flex column">
             <LocationIcon lightsOn={lightsOn} />
-            <p style={textColor}>{texts.weatherErrorMessage}</p>
+            <p className='weather-enable' style={textColor}>{texts.weatherErrorMessage}</p>
           </div>
           }
           {city && <div className='flex'>

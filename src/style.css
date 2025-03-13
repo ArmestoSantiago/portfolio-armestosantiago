@@ -239,7 +239,7 @@ a {
   width: 4.4rem;
 }
 
-@media (width > 37.5em) {
+@media (width > 45em) {
   .grid-main {
     padding: 2rem;
     max-width: 90rem;
@@ -348,16 +348,42 @@ a {
     grid-column: 3 / 5;
     grid-row: 4; 
     aspect-ratio: auto;
+    gap: 1.4rem
   }
 
+
   .welcome-card span {
-    color:#e5cc2d
+    color:#e5cc2d;
+    font-size: 2.4rem
+  }
+
+  .welcome-card p {
+    font-size: 2rem
   }
 
   .weather-card {
     grid-column: 3 / 5;
     grid-row: 5; 
     aspect-ratio: auto;
+  }
+
+  .weather-enable {
+    font-size: 2rem
+  }
+
+  .weather-text {
+    font-size: 4.2rem;
+  }
+
+  .icon-location {
+    width: 4rem !important;
+  }
+  .city-text {
+    font-size: 2.4rem;
+  }
+
+  .weather-card img {
+    width: 14rem;
   }
   
   .english-card {
@@ -376,10 +402,6 @@ a {
   .english-card p {
     font-size: 2rem;
   }
-
-  
-
-
 
   .signature {
     width: 42rem;
@@ -402,7 +424,7 @@ a {
   .institute-card {
     grid-column: 2 / 4;
     aspect-ratio: auto;
-    gap: 1.4rem;
+    gap: 1.2rem;
   }
 
   .institute-degree {
@@ -422,5 +444,12 @@ a {
     aspect-ratio: auto;
   }
 
+  .hammer-text {
+    font-size: 1.8rem;
+  }
+
+  .hammer-container {
+    gap: 1.4rem;
+  }
 }
 
