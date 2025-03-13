@@ -143,7 +143,7 @@ export function App() {
           {error &&
             <div className='hammer-container flex column'>
               <HammerIcon />
-              <p className='hammer-text' style={{ textAlign: 'center' }}>{texts.failFetch2}</p>
+              <p className='hammer-text' style={textColor}>{texts.failFetch2}</p>
             </div>
           }
           {!error && !location && <div className="flex column">

@@ -239,6 +239,10 @@ a {
   width: 4.4rem;
 }
 
+.hammer-text {
+  text-align: center;
+}
+
 @media (width > 45em) {
   .grid-main {
     padding: 2rem;
