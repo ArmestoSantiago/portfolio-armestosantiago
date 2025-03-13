@@ -7,6 +7,8 @@ export const getWeatherAndCity = async ({ lat, lng }) => {
     const data = await res.json();
 
     if (!res.ok) throw new Error();
+    console.log('res', res);
+    console.log('data');
     const temp = Math.round(data.main.temp);
     const weather = data.weather[0].main;
     const cityName = data.name;
