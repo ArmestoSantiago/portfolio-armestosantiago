@@ -96,7 +96,7 @@ export function App() {
           <div className="external-link" style={{ backgroundColor: lightsOn ? '#000' : '#fff' }}>
             <DownloadArrow lightsOn={lightsOn} />
           </div>
-          <a href='https://drive.google.com/file/d/1AC25Vt8mGSyaDuotDSgAq6fdjYOgtfdw' target='_blank' aria-label='curriculum' rel="noreferrer">
+          <a href={language ? 'https://drive.google.com/file/d/1HjvSEmUp7dmhGsTB1jhORvZRcTTbLell' : 'https://drive.google.com/file/d/1IwhHPjvBnOMw5zakPNrfYmqqvloKjAkm/view'} target='_blank' aria-label='curriculum' rel="noreferrer">
             <CvIncon lightsOn={lightsOn} />
           </a>
         </div >
